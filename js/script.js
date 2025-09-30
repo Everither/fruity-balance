@@ -14,10 +14,16 @@ class Knob {
             this.mousePressed = true;
             this.mouseDownY = e.clientY;
             this.currentRotation = parseInt(getComputedStyle(this.knobElement).getPropertyValue("--rotation"));
+
+            // Change cursor
+            document.body.style.cursor = "ns-resize";
         })
 
         document.addEventListener("mouseup", () => {
             this.mousePressed = false;
+
+            // Revert cursor
+            document.body.style.cursor = "";
         })
 
         document.addEventListener("mousemove", (e) => {
