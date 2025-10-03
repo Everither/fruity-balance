@@ -47,6 +47,12 @@ class Knob {
 const knobElement1 = document.getElementsByClassName("knob")[0];
 const knobElement2 = document.getElementsByClassName("knob")[1];
 
+knobElement1.style.setProperty("--rotation", "0deg");
+knobElement2.style.setProperty("--rotation", "270deg");
+
+knobElement1.style.setProperty("--rotation", "0deg");
+knobElement2.style.setProperty("--rotation", "270deg");
+
 const labelPan = document.getElementById("pan");
 const labelDB = document.getElementById("db");
 

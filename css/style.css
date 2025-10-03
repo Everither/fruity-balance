@@ -35,7 +35,7 @@ body {
 }
 
 .knob {
-    --rotation: 80deg;
+    --rotation: 0deg;
     width: 90px;
     height: 90px;
     display: grid;
