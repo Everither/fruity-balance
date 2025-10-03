@@ -37,6 +37,9 @@ class Knob {
 const knobElement1 = document.getElementsByClassName("knob")[0];
 const knobElement2 = document.getElementsByClassName("knob")[1];
 
+knobElement1.style.setProperty("--rotation", "0deg");
+knobElement2.style.setProperty("--rotation", "270deg");
+
 const knob1 = new Knob(knobElement1, -180, 180);
 const knob2 = new Knob(knobElement2, 0, 360);
 
