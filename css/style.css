@@ -139,24 +139,25 @@ body {
 
 .text.balance {
     font-size: 1.5em;
-    left: 21%;
+    left: 20%;
     top: 18%;
 }
 
 .text.volume {
     font-size: 1.5em;
-    left: 79%;
+    left: 80%;
     top: 18%;
 }
 
 .text.pan {
     font-size: 1em;
-    left: 21%;
+    left: 20%;
     top: 82%;
 }
 
 .text.db {
     font-size: 1em;
-    left: 79%;
+    white-space: nowrap;
+    left: 80%;
     top: 82%;
 }
